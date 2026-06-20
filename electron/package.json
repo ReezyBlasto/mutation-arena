@@ -1,0 +1,15 @@
+{
+  "name": "mutation-arena",
+  "version": "0.1.0",
+  "description": "Crypto trading + genetic evolution dashboard (Electron wrapper)",
+  "main": "main.cjs",
+  "author": "Mutation Arena",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron . --no-sandbox",
+    "debug": "electron . --inspect=9229"
+  },
+  "devDependencies": {
+    "electron": "^33.4.11"
+  }
+}

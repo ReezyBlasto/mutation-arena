@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "python3 /home/reezy/mutation-arena/scripts/inject_plan_context.py --event sessionStart"
+      }
+    ],
+    "beforeSubmitPrompt": [
+      {
+        "command": "python3 /home/reezy/mutation-arena/scripts/inject_plan_context.py --event beforeSubmitPrompt"
+      }
+    ],
+    "afterFileEdit": [
+      {
+        "command": "python3 /home/reezy/mutation-arena/scripts/post_edit_reminder.py"
+      }
+    ],
+    "stop": [
+      {
+        "command": "python3 /home/reezy/mutation-arena/scripts/gate_stop.py"
+      }
+    ]
+  }
+}

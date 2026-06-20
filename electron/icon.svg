@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0b12"/>
+      <stop offset="1" stop-color="#1a1830"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="48" fill="url(#bg)"/>
+  <!-- DNA helix -->
+  <g fill="none" stroke-width="10" stroke-linecap="round">
+    <path d="M64 48 C 120 96, 136 160, 192 208" stroke="#6B4FE8"/>
+    <path d="M64 208 C 120 160, 136 96, 192 48" stroke="#3EA6FF"/>
+  </g>
+  <!-- rungs -->
+  <g stroke-width="6" stroke-linecap="round">
+    <line x1="78" y1="74"  x2="178" y2="74"  stroke="#FFB020"/>
+    <line x1="88" y1="112" x2="168" y2="112" stroke="#00D38A"/>
+    <line x1="88" y1="144" x2="168" y2="144" stroke="#FFB020"/>
+    <line x1="78" y1="182" x2="178" y2="182" stroke="#00D38A"/>
+  </g>
+  <!-- candle -->
+  <g stroke="#FFFFFF" stroke-width="8" stroke-linecap="round">
+    <line x1="208" y1="64"  x2="208" y2="120"/>
+  </g>
+  <rect x="200" y="78" width="16" height="34" rx="3" fill="#3EA6FF"/>
+</svg>
