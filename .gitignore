@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Env & secrets
+.env
+.env.*
+
+# Runtime data
+logs/
+*.log
+backend/data/
+
+# IDE / planning artifacts
+.planning/
+.plan-attestation
+
+# OS
+.DS_Store
